@@ -41,8 +41,11 @@
     <!-- SLF4J -->
     <slf4j.version>1.7.12</slf4j.version>
     <!-- Maven repository -->
-  	<maven.repository.id>github-maven-repository</maven.repository.id>
-  	<maven.repository.url>https://raw.github.com/vrachieru/maven-repository/master</maven.repository.url>
+    <maven.repository.id>github-maven-repository</maven.repository.id>
+    <maven.repository.url>https://raw.github.com/vrachieru/maven-repository/master</maven.repository.url>
+    <maven.repository.id>github-maven-repository</maven.repository.id>
+    <maven.repository.url>https://raw.github.com/vrachieru/maven-repository/master</maven.repository.url>
+    <maven.repository.localdir>${project.basedir}</maven.repository.localdir>
   </properties>
 
   <issueManagement>
@@ -97,8 +100,8 @@
             <updatePolicy>always</updatePolicy>
         </snapshots>
         <releases>
-        	<enabled>true</enabled>
-        	<updatePolicy>always</updatePolicy>
+          <enabled>true</enabled>
+          <updatePolicy>always</updatePolicy>
         </releases>
     </repository>
 </repositories>
